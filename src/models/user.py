@@ -1,8 +1,6 @@
 import attr
 import datetime
 
-from src.models.card import CardAccess
-
 
 @attr.s(slots=True, order=True)
 class User:
@@ -25,5 +23,6 @@ class User:
                         data["has_card"],
                         data["time_of_exit"],
                         data["card"])
-        except Exception as e:
+        except KeyError as e:
+            print(e)  # update to logger
             return None
