@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-from src.config.get_json_data import get_data as CONFIG
+from src.config.get_json_data import get_data as config
 
 
 class DatabaseClient:
@@ -75,9 +75,13 @@ class DatabaseClient:
         return self.database.delete_one({data, new_data})
 
     @staticmethod
-    def _init_from_client(db_name):
-        try:
-            client = MongoClient()[CONFIG("db_config")["client"]][db_name]
-            return client
-        except Exception as e:
-            return None
+    def _init_from_client(db_name=None):
+        """
+        This will return None if the method cannot find a MongoClient
+        :param db_name: default :: None
+        :return: MongoClient()[DATABASE][db_name] || None
+        """
+        if db_name is None:
+            return db_name
+        client = MongoClient()[config("db_config")["client"]][db_name]
+        return client
