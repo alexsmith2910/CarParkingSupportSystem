@@ -1,7 +1,7 @@
 <h1 align="center">
 	<img
 		width="300"
-		alt="The Lounge"
+		alt="AlexSmith2910"
 		src="https://avatars.githubusercontent.com/u/40245164?s=400&u=11bf153e3271d4434e3eed5d22623541eaee6ac0&v=4">
 </h1>
 
@@ -21,15 +21,19 @@
 
 
 <p align="center">
+	<a href="https://github.com/alexsmith2910/CarParkingSupportSystem/releases"><img
+        alt="Release Version"
+        src="https://img.shields.io/github/v/release/alexsmith2910/CarParkingSupportSystem?color=red&label=Version&style=flat-square">
+    </a>
+    <a href="https://github.com/alexsmith2910/CarParkingSupportSystem"><img
+        alt="GitHub code size in bytes"
+        src="https://img.shields.io/github/languages/code-size/alexsmith2910/CarParkingSupportSystem?color=yellow&label=Size&style=flat-square">
+    </a>
 	<a href="https://github.com/alexsmith2910/CarParkingSupportSystem"><img
         alt="GitHub"
         src="https://img.shields.io/github/license/alexsmith2910/CarParkingSupportSystem?&style=flat-square">
     </a>
-    <a href="https://github.com/alexsmith2910/CarParkingSupportSystem"><img
-        alt="GitHub code size in bytes"
-        src="https://img.shields.io/github/languages/code-size/alexsmith2910/CarParkingSupportSystem?color=red&label=Size&style=flat-square">
-    </a>
-	<a href="https://github.com/alexsmith2910/CarParkingSupportSystem/graphs/commit-activity"><img
+    <a href="https://github.com/alexsmith2910/CarParkingSupportSystem/graphs/commit-activity"><img
         alt="GitHub commit activity"
         src="https://img.shields.io/github/commit-activity/m/alexsmith2910/CarParkingSupportSystem?color=blue&style=flat-square">
     </a>
